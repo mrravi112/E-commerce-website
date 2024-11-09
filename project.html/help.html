@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../nav.css">
+    <style>
+    nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: #3e928b;
+ }
+      
+        body{
+            background-image: url(help2.avif);
+            background-size: contain;
+            background-size: 120pc;
+            
+        }
+        #nav{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        position: fixed;
+        top: 0%;
+        width: 100%;
+        background-color: #5ce5e5;
+    }
+        ul{
+    display: flex;
+
+}
+ul li {
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 22px;
+    font-size: 20px;
+    color: black;
+}
+ul li a:hover{
+    color: rgb(252, 10, 50);
+    border-bottom: 2px solid rgb(255, 3, 45);
+}
+.logo{
+    font-size: 22px;
+}
+.logo span{
+    color: rgb(255, 7, 48);
+}
+        
+        #parent{
+            width: 72pc;
+            height: 40pc;
+            margin:3pc 18pc 3pc 5pc;
+            background-color: rgba(196, 82, 225, 0.358);
+            clear: both;
+        }
+        #child1{
+            float: left;
+            width: 25pc;
+            height: 30pc;
+            margin: 5pc 0pc 5pc 2pc;
+            color: black;
+        }
+
+        #article{
+            margin: 2pc;
+            font-weight: bold;
+            
+        }
+
+        .form{
+            float: right;
+            width: 35pc;
+            height: 30pc;
+            margin:5pc 2pc 5pc 2pc;
+            background-color: rgba(179, 235, 227, 0.208);
+        }
+        .form input{
+            width: 30pc;
+            height: 2.5pc;
+            font-size: 20px;
+        }
+        .form ::placeholder{
+            color: rgba(255, 0, 0, 0.386);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1><span>F</span>ashion</h1>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Men</a></li>
+            <li><a href="index.html">Women</a></li>
+            <li><a href="index.html">Trending</a></li>
+            <li><a href="help.html">Contact Us</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="login.html">Login</a></li>
+
+        </ul>
+        <i id="bar" class="fa-solid fa-bars"></i>
+    </nav>
+    
+    <main>
+        <div id="parent">
+            <div id="child1">
+                <article id="article">
+                    <p style="padding-left: 2.5pc;font-size: 30px;">HELP CENTER</p>
+                    <p style="font-size: 20px;"> We are here to help you</p>
+                    <address style="font-weight: bold;">
+                        <br>
+                        Phagwara Punjab India 144411
+                    </address>
+                    <dl style="font-weight: bold;">
+                        <dt>Contact No :</dt><br>
+                            <dd>XXXXXX16891</dd><br>
+                            <dd>XXXXXX45900</dd>
+                    </dl>
+                </article>
+            </div>
+            <div class="form">
+                <form style="margin: 2pc;">
+                    <input type="text" placeholder="Name"><br><br>
+                    <input type="email" placeholder="E-mail"><br><br>
+                    <input type="tel" placeholder="Phone No"><br><br>
+                    <input type="text" placeholder="Subject"><br><br>
+                    <input type="text" placeholder="Description"><br><br>
+                    <input style="margin-left: 7pc;width: 15pc;background-color: red;" type="submit" placeholder="Submit">
+                </form>
+            </div>
+        </div>
+    <footer>
+        <p class="foot">My Webpage &copy; 2024. All rights are resreved.</p>
+    </footer>
+</body>
+</html>
